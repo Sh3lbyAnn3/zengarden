@@ -1,0 +1,67 @@
+
+body
+{
+background: pink;
+  max-width: 500px;
+  position:relative;
+  left: 20px;
+}
+
+p, h1, h3, header {
+  color: #525456;
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  background: white;
+  padding: 30px;
+  font-size: 24px;
+  color: black;
+  font-family: verdana;
+}
+
+p {
+  font-size: 12px;
+  font-family: verdana;
+}
+
+img {
+  max-width: 140px;
+  display: flex;
+  float: right;
+}
+
+section {
+  background:;
+}
+
+a {
+ color: #6d6d6d;
+  text-decoration: none;
+  
+}
+
+a:hover { 
+    color: white;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: black;
+ 
+}
+
+li {
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  background-image: url("https://secure.static.tumblr.com/e7443a6f289a4e1004f08bbebf5ae00e/ugyh7ob/PmNnj7xni/tumblr_static_tumblr_static_apq0djjfa60w0s4c0kgs4sck4_640.jpg");
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+@media only screen and (min-width: 500px) 
+body {
+  max-width: 150px;
+}
